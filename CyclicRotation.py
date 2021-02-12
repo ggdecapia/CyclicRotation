@@ -5,15 +5,16 @@ array_len = len(A)
 # check if array is empty (no movement)
 if array_len == 0:
     print(A)
+# continue processing if array is a non-empty array
 else:
-    # evaluate when K=0 or K is divisible by array_len (no movement)
+    # evaluate if movement = 0 or divisible by array_len (no movement)
     if K==0 or K%array_len == 0:
         print(A)
     else:
-        # compute for the number of shifts
+        # compute for the number of movement by getting the mod
         no_of_shifts = K % array_len
     
-        # define the output array; set the number of elements = to the given array
+        # define the output array by setting the number of elements = to the given array
         resulting_array = [0] * array_len
 
         # shift the elements based on the computed number of shifts
