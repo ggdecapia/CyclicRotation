@@ -1,11 +1,6 @@
 A = [3, 8, 9, 7, 6]
 K = 3
-#A = [0, 0, 0]
-#K = 1
-#A = [1, 2, 3, 4]
-#K = 4
-#A = []
-#K = 4
+
 array_len = len(A)
 # check if array is empty (no movement)
 if array_len == 0:

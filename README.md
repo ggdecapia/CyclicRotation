@@ -1,4 +1,4 @@
-(This is taken from Codility site)
+(This problem is taken from Codility site)
 
 # CyclicRotation
 This repository is aimed to rotate a given array based on a given number.
